@@ -19,9 +19,9 @@ The details of the columns in the dataset are as follows:
 
 ## About the project:
 Several steps were taken to complete this project:
-1. The dataset provided has several problems, so data preprocessing is carried out to resolve these problems.
-2. Do the data exploration and separate the dataset into train, test and validation sets with the conditions: 80 train, 10 validation, 10 test.
-3. Create a baseline architecture with n nodes input layer, 2 hidden layers with 2 x n initial nodes and a final layer with many classes (n, 2 x n, 2 x n, num classes).
-    Description: n is the number of inputs and num_class is the number of classes. Activation function for each hidden layer uses ReLU.
-4. Modifying the previous architecture to get better accuracy results.
-5. Evaluate the performance of the two architectures above on the test set based on the accuracy, precision, recall and F1-Score values.
+1. The dataset provided has several problems, so data preprocessing is carried out to resolve these problems
+2. Perform data exploration and separate the dataset into train, test and validation sets with the conditions: 80 train, 10 validation, 10 test
+3. Create a baseline architecture with n nodes input layer, 2 hidden layers with 2 x n initial nodes and a final layer with many classes (n, 2 x n, 2 x n, num classes)
+   Description: n is the number of inputs and num_class is the number of classes. Activation function for each hidden layer uses ReLU
+5. Modifying the previous architecture to get better accuracy results
+6. Evaluate the performance of the two architectures above on the test set based on the accuracy, precision, recall and F1-Score values
